@@ -2,7 +2,7 @@
   "name": "mind-glitch-theme",
   "displayName": "MindGlitch",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -20,6 +20,20 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
-  }
+    "url": "https://github.com/Mind-Glitch/vscode-theme.git"
+  },
+  "author": {
+    "name": "MindGlitch"
+  },
+  "galleryBanner": {
+    "color": "070b10",
+    "theme": "dark"
+  },
+  "icon": "./63287416.png",
+  "sponsor": {},
+  "os": [
+    "Windows",
+    "Linux"
+  ],
+  "preview": true
 }
