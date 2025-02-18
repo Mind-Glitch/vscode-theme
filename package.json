@@ -29,11 +29,12 @@
     "color": "070b10",
     "theme": "dark"
   },
-  "icon": "./63287416.png",
-  "sponsor": {},
+  "badges": [],
+  "icon": "63287416_s.png",
   "os": [
     "Windows",
     "Linux"
   ],
+  "publisher": "Mind-Glitch",
   "preview": true
 }
