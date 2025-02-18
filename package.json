@@ -1,0 +1,25 @@
+{
+  "name": "mind-glitch-theme",
+  "displayName": "MindGlitch",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MindGlitchTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mind-glitch-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
