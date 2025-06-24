@@ -102,7 +102,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#848484"
+				"foreground": "#73A5BC"
 			}
 		},
 		{
@@ -303,7 +303,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#2eaada"
+				"foreground": "#8dc6ea"
 			}
 		},
 		{
@@ -362,6 +362,35 @@
 			}
 		},
 		{
+			"name": "TSX",
+			"scope": [
+				"variable.other.readwrite.alias.tsx",
+			],
+			"settings": {
+				"foreground": "#82b78d"
+			}
+		},
+		{
+			"name": "TSX - controls",
+			"scope": [
+				"keyword.control",
+				"keyword.control keyword.control.flow.tsx",
+			],
+			"settings": {
+				"foreground": "#d8d8d8"
+			}
+		},
+		{
+			"name": "TSX - other object",
+			"scope": [
+				" variable.other.object.tsx",
+				"variable.other.object",
+			],
+			"settings": {
+				"foreground": "#e0e0e0"
+			}
+		},
+		{
 			"name": "meta.preprocessor",
 			"scope": [
 				"meta.preprocessor",
@@ -385,12 +414,21 @@
 		{
 			"name": "HTML Attributes",
 			"scope": [
-				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name",
 			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#d0b178"
+			}
+		},
+		{
+			"name": "HTML tags",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#b1dcff"
 			}
 		},
 		{
@@ -763,6 +801,120 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Python.Source",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#c6c6c6"
+			}
+		},
+		{
+			"name": "Python.Keywords",
+			"scope": [
+				"keyword.control.import.python"
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#949494"
+			}
+		},
+		{
+			"name": "CPP.Include",
+			"scope": [
+				"keyword.control.directive.include.cpp"
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#949494"
+			}
+		},
+		{
+			"name": "CPP.FunctionDefinition",
+			"scope": [
+				"entity.name.function.cpp",
+				"entity.name.function.call.cpp",
+				"meta.body.function.definition.cpp",
+				"meta.function.definition.cpp"
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#38b677"
+			}
+		},
+		{
+			"name": "CPP.Include.TextAndPreprocessor",
+			"scope": [
+				"string.quoted.double.include.cpp",
+				"string.quoted.other.lt-gt.include.cpp",
+				"meta.preprocessor.include.cpp"
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#5cb98b"
+			}
+		},
+		{
+			"name": "CPP.Function.Parameter",
+			"scope": [
+				"variable.parameter.cpp",
+				"constant.numeric",
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#adadad"
+			}
+		},
+		{
+			"name": "CPP.Function.Parameter",
+			"scope": [
+				"storage.type.primitive.cpp",
+				"meta.qualified-type.cpp",
+				"meta.function.definition.cpp",
+				"meta.body.class.cpp",
+				"meta.block.class.cpp",
+				"storage.modifier.static.cpp",
+				"storage.modifier.const.cpp",
+				"storage.modifier.inline.cpp",
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#D8D8D8"
+			}
+		},
+		{
+			"name": "CPP.Primitive.Types",
+			"scope": [
+				"storage.type.built-in.primitive.cpp",
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#D8D8D8"
+			}
+		},
+		{
+			"name": "CPP.Primitive.Types",
+			"scope": [
+				"entity.name.type.cpp",
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#38b677"
+			}
+		},
+		{
+			"name": "CPP.Numeric.Constants",
+			"scope": [
+				"constant.numeric.decimal.cpp",
+				"constant.numeric.integer.cpp",
+				"constant.numeric.hexadecimal.cpp",
+			],
+			"settings": {
+				// "foreground": "#79d48e" // more gay tbh
+				"foreground": "#D0D0D0"
 			}
 		}
 	]
