@@ -24,4 +24,4 @@ It supports :
 
 <br/>
 
-# [LICENSE](./LICENSE.md)
+# [License](LICENSE.md)
