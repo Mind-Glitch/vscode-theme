@@ -1,13 +1,13 @@
-Вы можете использовать его в некоммерческих целях, но модификация и продажа запрещены.
+You can use it for non-commercial purposes, but modifications and sale are prohibited.
 
 Copyright (c) 2025 Mind-Glitch
 
-Разрешается копирование, использование и распространение данного программного кода для любых некоммерческих целей, **при
-условии, что код остается неизменным** и сохраняется указание авторства.
+Copying, use and distribution of this program code for any non-commercial purposes is permitted, **if The code is proven
+to remain unchanged** and the authorship is retained.
 
-Запрещается:
+It is prohibited:
 
--   Использовать код в коммерческих продуктах
--   Вносить изменения в код и распространять изменённые версии
+-   Use the code in products
+-   Make changes to the code and distribute modified versions.
 
-Данный код предоставляется "как есть", без каких-либо гарантий.
+This code is used "as is", without any guarantees.
