@@ -8,4 +8,20 @@ It supports :
 -   CSS
 -   C / CPP
 
-#[LICENSE] (./LICENSE.md)
+# Previews:
+
+## CPP
+
+<img src="./Preview1.png" width="650"/>
+
+## PYTHON
+
+<img src="./Preview2.png" width="650"/>
+
+## TS/HTML
+
+<img src="./Preview3.png" width="650"/>
+
+<br/>
+
+# [LICENSE](./LICENSE.md)
