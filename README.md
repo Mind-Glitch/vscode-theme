@@ -8,4 +8,4 @@ It supports :
 -   CSS
 -   C / CPP
 
-#[LICENSE] (./LICENSE.md)
+# [License](LICENSE.md)
